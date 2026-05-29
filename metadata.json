@@ -1,0 +1,6 @@
+{
+  "name": "Nexus Systems",
+  "description": "Futuristic Neon Landing Page",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

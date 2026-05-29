@@ -1,0 +1,2 @@
+export const CLINIC_PHONE = "+91 98200 12345";
+export const CLINIC_WHATSAPP = "919820012345";
