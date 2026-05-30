@@ -66,7 +66,7 @@ export function Hero() {
       {/* ── MAIN CONTENT ── */}
       <div className="relative z-10 flex flex-col flex-1">
         {/* ── SPACER FOR NAVBAR ── */}
-        <div className="h-[52px] md:h-[92px] flex-shrink-0" />
+        <div className="h-[49px] md:h-[92px] flex-shrink-0" />
 
         {/* ── HERO BODY ── */}
         <div className="flex-1 flex flex-col justify-center container mx-auto px-5 sm:px-6 lg:px-10 xl:px-14 w-full py-10 md:py-0">
