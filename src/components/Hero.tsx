@@ -148,21 +148,7 @@ export function Hero() {
                 </a>
               </motion.div>
 
-              {/* Trust indicators */}
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 1.2, delay: 0.6 }}
-                className="mt-12 flex items-center gap-6 text-[10px] font-mono text-slate-500 uppercase tracking-widest"
-              >
-                <span>10,000+ Cases</span>
-                <span className="w-[1px] h-3 bg-white/10" />
-                <span>15+ Years</span>
-                <span className="w-[1px] h-3 bg-white/10" />
-                <span>Zero Pain</span>
-              </motion.div>
-            </motion.div>
-
+            
             {/* ── RIGHT COLUMN: Floating stats card cluster — reduced visual weight ── */}
             <motion.div
               initial={{ opacity: 0, x: 24 }}
