@@ -345,20 +345,7 @@ export function Hero() {
               </a>
             </motion.div>
 
-            {/* Trust indicators */}
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 1.2, delay: 0.6 }}
-              className="flex items-center gap-6 text-[10px] font-mono text-slate-500 uppercase tracking-widest"
-            >
-              <span>10,000+ Cases</span>
-              <span className="w-[1px] h-3 bg-white/10" />
-              <span>15+ Years</span>
-              <span className="w-[1px] h-3 bg-white/10" />
-              <span>Zero Pain</span>
-            </motion.div>
-          </div>
+            
 
           {/* ── MOBILE: Centered cinematic layout ── */}
           <div className="flex md:hidden flex-col items-center text-center justify-center min-h-[calc(100svh-200px)] pt-4 pb-8">
@@ -434,21 +421,7 @@ export function Hero() {
               </a>
             </motion.div>
 
-            {/* ── MOBILE TRUST INDICATORS — inline, no box ── */}
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 1.2, delay: 0.42 }}
-              className="flex items-center justify-center gap-5 text-[10px] font-mono text-slate-500 uppercase tracking-widest"
-            >
-              <span>10,000+ Cases</span>
-              <span className="w-[1px] h-3 bg-white/10" />
-              <span>15+ Years</span>
-              <span className="w-[1px] h-3 bg-white/10" />
-              <span>4.9 Rating</span>
-            </motion.div>
-          </div>
-        </div>
+            
 
         {/* ── SCROLL INDICATOR ── */}
         <motion.div
